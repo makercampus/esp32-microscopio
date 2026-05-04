@@ -20,8 +20,8 @@ Edita **solo** este archivo:
 Arriba del archivo cambia estas dos líneas:
 
 ```cpp
-#define MAKER_DEFAULT_AP_SSID "MAKER-CAMPUS-CAM"
-#define MAKER_DEFAULT_AP_PASSWORD "InsecurePassword"
+#define MAKER_DEFAULT_AP_SSID "TEST-MAKER-CAMPUS-CAM"
+#define MAKER_DEFAULT_AP_PASSWORD "1234567890"
 ```
 
 ### 2) Cargar firmware

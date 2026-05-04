@@ -1,0 +1,6 @@
+#define CAM_NAME MAKER_BRAND_NAME
+#define MDNS_NAME MAKER_DEFAULT_MDNS_NAME
+
+struct station stationList[] = {{MAKER_DEFAULT_AP_SSID, MAKER_DEFAULT_AP_PASSWORD, true}};
+
+#define CAMERA_MODEL_AI_THINKER      
