@@ -207,7 +207,6 @@ const std::string portal_html = R"=====(<!doctype html>
       <h1><CAMNAME></h1>
       <p>Portal de acceso Maker Campus - Universidad del Desarrollo</p>
       <div class="actions">
-        <a href="<APPURL>?view=simple" target="_blank"><button>Vista Simple</button></a>
         <a href="<APPURL>?view=full" target="_blank"><button>Vista Full</button></a>
         <a href="<STREAMURL>" target="_blank"><button>Stream Directo</button></a>
       </div>

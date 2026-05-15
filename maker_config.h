@@ -5,7 +5,7 @@
 #include <cmath>
 
 // cambiar aquí nombre wi-fi y contraseña
-#define MAKER_DEFAULT_AP_SSID "03-MAKER-CAMPUS-CAM"
+#define MAKER_DEFAULT_AP_SSID "12-MAKER-CAMPUS-CAM"
 #define MAKER_DEFAULT_AP_PASSWORD "1234567890"
 
 #define MAKER_BRAND_NAME "Maker Campus Microscopio UDD"

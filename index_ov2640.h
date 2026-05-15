@@ -161,9 +161,7 @@ const uint8_t index_ov2640_html[] = R"=====(<!doctype html>
             <div class="meta" id="fw"></div>
           </div>
           <div class="toolbar">
-            <button id="btn-simple" class="ghost">Vista Simple</button>
             <button id="btn-stream" class="accent">Iniciar Stream</button>
-            <button id="btn-still">Captura Still</button>
           </div>
         </div>
         <div class="viewer">
@@ -234,8 +232,6 @@ const uint8_t index_ov2640_html[] = R"=====(<!doctype html>
         const baseHost = document.location.origin;
         const streamImg = byId('stream');
         const btnStream = byId('btn-stream');
-        const btnStill = byId('btn-still');
-        const btnSimple = byId('btn-simple');
 
         const lamp = byId('lamp');
         const brightness = byId('brightness');
@@ -334,19 +330,6 @@ const uint8_t index_ov2640_html[] = R"=====(<!doctype html>
           btnStream.addEventListener('click', () => {
             if (streamEnabled) stopStream();
             else startStream();
-          });
-        }
-
-        if (btnStill) {
-          btnStill.addEventListener('click', () => {
-            stopStream();
-            streamImg.src = `${baseHost}/capture?_cb=${Date.now()}`;
-          });
-        }
-
-        if (btnSimple) {
-          btnSimple.addEventListener('click', () => {
-            window.open('/?view=simple', '_self');
           });
         }
 
